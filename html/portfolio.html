@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debrup Das | Engineering Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/dist/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { 
+            background-color: #040811; 
+            color: #f8fafc;
+            background: linear-gradient(rgba(4, 8, 17, 0.92), rgba(4, 8, 17, 0.92)), url('AI image.jfif'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .glass { background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(15px); border: 1px solid rgba(255,255,255,0.08); }
+        .hero-card { background: rgba(15, 23, 42, 0.4); border: 1px solid rgba(59, 130, 246, 0.2); }
+        .skill-tag { border: 1px solid rgba(59, 130, 246, 0.3); background: rgba(59, 130, 246, 0.05); }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <nav class="fixed w-full z-50 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center glass rounded-2xl px-6 py-3 shadow-xl">
+            <span class="text-xl font-bold tracking-tighter text-white uppercase">Debrup Das</span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Expertise</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#contact" class="text-blue-400 border border-blue-400/30 px-4 py-1.5 rounded-lg hover:bg-blue-400/10 transition">Connect</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-40 pb-20 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            
+            <div class="flex justify-center md:justify-start order-2 md:order-1">
+                <div class="relative group">
+                    <div class="absolute -inset-1 bg-blue-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
+                    <img src="MY IMAGE .jpeg" alt="Debrup Das" class="relative w-full max-w-md rounded-2xl shadow-2xl object-cover transition duration-500">
+                </div>
+            </div>
+
+            <div class="text-left order-1 md:order-2">
+                <h1 class="text-6xl md:text-8xl font-black mb-4 tracking-tighter uppercase text-white">Debrup <br>Das</h1>
+                <p class="text-xl text-blue-400 mb-8 font-medium tracking-wide border-l-4 border-blue-500 pl-4 uppercase">
+                    Engineering & AIML Student
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="glass p-12 rounded-3xl">
+                <h2 class="text-3xl font-bold mb-8 uppercase tracking-widest text-blue-400 border-b border-white/10 pb-4">About</h2>
+                <div class="text-gray-300 text-lg leading-relaxed space-y-6">
+                    <p>
+                        Currently pursuing a B.Tech in Computer Science and Engineering, currently in the 4th semester, with a primary academic focus on **Artificial Intelligence and Machine Learning**. Technical development is centered around creating data-driven solutions and exploring the integration of intelligent algorithms within software architectures.
+                    </p>
+                    <p>
+                        Professional responsibilities include serving as the **Coordinator for the Photography Club**. This role involves high-level event coordination, team management, and the practical application of creative leadership within a collegiate environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-16 text-center uppercase tracking-widest">Technical Domain</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass p-8 rounded-2xl hero-card">
+                    <h3 class="font-bold text-xl mb-6 text-blue-400">Core Languages</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">Python</span>
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">C / C++</span>
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">Java</span>
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">SQL</span>
+                    </div>
+                </div>
+                <div class="glass p-8 rounded-2xl hero-card">
+                    <h3 class="font-bold text-xl mb-6 text-blue-400">Development</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">Streamlit</span>
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">Machine Learning</span>
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">IoT Integration</span>
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">Data Analytics</span>
+                    </div>
+                </div>
+                <div class="glass p-8 rounded-2xl hero-card">
+                    <h3 class="font-bold text-xl mb-6 text-blue-400">Tools</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">Git & GitHub</span>
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">VS Code</span>
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">Jupyter</span>
+                        <span class="px-4 py-2 rounded-lg skill-tag text-sm">HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 uppercase tracking-widest">Core Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="glass p-10 rounded-3xl border-l-4 border-blue-500 shadow-xl">
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400 uppercase">Agriculture Crop Prediction</h3>
+                    <p class="text-gray-400 mb-8 text-lg">
+                        Development of an ML recommendation system analyzing environmental parameters for agricultural optimization. Future development includes real-time IoT sensor connectivity.
+                    </p>
+                    <div class="flex gap-4">
+                        <span class="text-xs font-bold text-gray-600">PYTHON</span>
+                        <span class="text-xs font-bold text-gray-600">SCIKIT-LEARN</span>
+                    </div>
+                </div>
+                <div class="glass p-10 rounded-3xl border-l-4 border-blue-500 shadow-xl">
+                    <h3 class="text-2xl font-bold mb-4 text-blue-400 uppercase">Banking Management System</h3>
+                    <p class="text-gray-400 mb-8 text-lg">
+                        Implementation of secure C++ algorithmic structures for financial simulation, emphasizing PIN validation logic and transaction history management.
+                    </p>
+                    <div class="flex gap-4">
+                        <span class="text-xs font-bold text-gray-600">C++</span>
+                        <span class="text-xs font-bold text-gray-600">OOPs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-24 px-6 border-t border-white/5">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12 uppercase tracking-widest text-blue-400">Connect</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
+                <a href="tel:+917679193445" class="glass p-6 rounded-2xl hover:bg-blue-600/10 transition">
+                    <i class="fas fa-phone text-blue-500 text-2xl mb-3"></i>
+                    <p class="text-[10px] text-gray-500 uppercase font-bold mb-1">Call</p>
+                    <p class="text-sm font-bold tracking-wider text-white">+91 7679193445</p>
+                </a>
+                
+                <a href="mailto:debrupdas500@gmail.com" class="glass p-6 rounded-2xl hover:bg-blue-600/10 transition">
+                    <i class="fas fa-envelope text-blue-500 text-2xl mb-3"></i>
+                    <p class="text-[10px] text-gray-500 uppercase font-bold mb-1">Email</p>
+                    <p class="text-sm font-bold tracking-wider text-white">debrupdas500@gmail.com</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/debrup-das-810238326" target="_blank" class="glass p-6 rounded-2xl hover:bg-blue-600/10 transition">
+                    <i class="fab fa-linkedin text-blue-500 text-2xl mb-3"></i>
+                    <p class="text-[10px] text-gray-500 uppercase font-bold mb-1">LinkedIn</p>
+                    <p class="text-sm font-bold tracking-wider text-white">Debrup Das</p>
+                </a>
+
+                <a href="https://github.com/DebrupDas999" target="_blank" class="glass p-6 rounded-2xl hover:bg-blue-600/10 transition">
+                    <i class="fab fa-github text-blue-500 text-2xl mb-3"></i>
+                    <p class="text-[10px] text-gray-500 uppercase font-bold mb-1">GitHub</p>
+                    <p class="text-sm font-bold tracking-wider text-white">DebrupDas999</p>
+                </a>
+            </div>
+
+            <p class="text-[10px] text-gray-700 tracking-[0.3em] uppercase">© 2026 Debrup Das | Engineering Student Portfolio</p>
+        </div>
+    </footer>
+
+</body>
+</html>
